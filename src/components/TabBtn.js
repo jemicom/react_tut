@@ -14,13 +14,13 @@ import React from "react";
 // };
 
 // 전개해서 props 를 받으면
-const TabBtn = ({ num, setNum, index, btn }) => {
+const TabBtn = ({ id, num, setNum, btn }) => {
   return (
     <li
       onClick={() => {
-        setNum(index + 1);
+        setNum(id);
       }}
-      className={num === index + 1 ? "active" : ""}
+      className={num === id ? "active" : ""}
     >
       {btn}
     </li>
