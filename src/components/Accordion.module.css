@@ -1,0 +1,23 @@
+.acContainer {
+  width: 500px;
+}
+
+.acContent {
+  border-radius: 10px;
+  background-color: orange;
+  overflow: hidden;
+}
+
+.acTitle {
+  height: 50px;
+  text-indent: 20px;
+  line-height: 50px;
+}
+.acBody {
+  height: 0;
+  transition: 1s;
+}
+.acBodyHeight {
+  height: 100px;
+  transition: 1s;
+}

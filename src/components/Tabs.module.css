@@ -1,0 +1,31 @@
+/* 
+    css 디자인 방법과 같음 
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-container {
+  width: 800px;
+  margin: auto;
+}
+
+.tab-btns {
+  list-style: none;
+  display: flex;
+}
+
+.tab-btns li.active {
+  background-color: black;
+  color: white;
+}
+
+.tab-contents > div {
+  height: 200px;
+  display: none;
+}
+
+.tab-contents > div:nth-child(1) {
+  display: block;
+}
